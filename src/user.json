@@ -1,0 +1,230 @@
+[
+    {
+        "name": "Md. Emon",
+        "image": "https://i.ibb.co/jw2Z9R8/emon11.png",
+        "age": 22,
+        "nationality": "Bangladeshi",
+        "skills": ["JavaScript", "TypeScript", "React", "Next.Js", "Express.Js", "MongoDB", "MySQL", "Redux"],
+        "nid": "555555555",
+        "address": "GP/Ga-48/4, Mohakhali, Dhaka-1212, Bangladesh",
+        "email": "emon.mhk69@gmail.com",
+        "phone": "+8801751589072",
+        "website": "https://emon3455.netlify.app/",
+        "gender": "MALE",
+        "educationalQualifications": {
+            "degree": "Bachelor of Science in Computer Science And Engineering",
+            "university": "Green University",
+            "passingyear": 2024,
+            "cgpa": 3.84
+        }
+    },
+    {
+        "name": "Mohammed Ahmed",
+        "image": "https://i.ibb.co/pXGRZzX/Emon-Image.jpg",
+        "age": 27,
+        "nationality": "Egyptian",
+        "skills": ["C#", "ASP.NET", "SQL Server", "Web Development"],
+        "nid": "999999999",
+        "address": "456 Elm Street, Cairo, Egypt",
+        "email": "mohammed.ahmed@example.com",
+        "phone": "+20 123 456 7890",
+        "website": "https://www.mohammedahmed.com",
+        "gender": "MALE",
+        "educationalQualifications": {
+            "degree": "Master of Computer Science",
+            "university": "Cairo University",
+            "passingyear": 2018,
+            "cgpa": 3.6
+        }
+    },
+    {
+        "name": "Maria Lopez",
+        "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "age": 29,
+        "nationality": "Spanish",
+        "skills": ["JavaScript", "React", "Node.js", "UI/UX Design"],
+        "nid": "777777777",
+        "address": "123 Calle Principal, Madrid, Spain",
+        "email": "maria.lopez@example.com",
+        "phone": "+34 123 456 7890",
+        "website": "https://www.marialopez.com",
+        "gender": "FEMALE",
+        "educationalQualifications": {
+            "degree": "Bachelor of Arts in Graphic Design",
+            "university": "University of Madrid",
+            "passingyear": 2016,
+            "cgpa": 3.9
+        }
+    },
+    {
+        "name": "Chen Wei",
+        "image": "https://images.unsplash.com/photo-1484863137850-59afcfe05386?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHVzZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+        "age": 31,
+        "nationality": "Chinese",
+        "skills": ["Python", "Machine Learning", "Data Analysis", "Mandarin"],
+        "nid": "888888888",
+        "address": "789 Chang'an Road, Beijing, China",
+        "email": "chen.wei@example.com",
+        "phone": "+86 123 456 7890",
+        "website": "https://www.chenwei.com",
+        "gender": "FEMALE",
+        "educationalQualifications": {
+            "degree": "Ph.D. in Data Science",
+            "university": "Peking University",
+            "passingyear": 2019,
+            "cgpa": 4.0
+        }
+    },
+    {
+        "name": "John Doe",
+        "image": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "age": 30,
+        "nationality": "American",
+        "skills": ["JavaScript", "Python", "React", "Node.js"],
+        "nid": "123456789",
+        "address": "123 Main Street, City, Country",
+        "email": "john.doe@example.com",
+        "phone": "+1 (123) 456-7890",
+        "website": "https://www.johndoe.com",
+        "gender": "MALE",
+        "educationalQualifications": {
+            "degree": "Master of Science in Software Engineering",
+            "university": "University ABC",
+            "passingyear": 2018,
+            "cgpa": 3.9
+        }
+    },
+    {
+        "name": "Jane Smith",
+        "image": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1480&q=80",
+        "age": 28,
+        "nationality": "Canadian",
+        "skills": ["Java", "C++", "Spring Boot", "SQL"],
+        "nid": "987654321",
+        "address": "456 Elm Street, City, Country",
+        "email": "jane.smith@example.com",
+        "phone": "+1 (987) 654-3210",
+        "website": "https://www.janesmith.com",
+        "gender": "MALE",
+        "educationalQualifications": {
+            "degree": "Master of Business Administration",
+            "university": "Business School XYZ",
+            "passingyear": 2019,
+            "cgpa": 3.7
+        }
+    },
+    {
+        "name": "Emily Davis",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9acPPFnsQaTYI7WzB-EE8UxeKFT-4NOZVfYYCQY2Hk8oq-_sTLKxVQMuSHrFWXjOIHRk&usqp=CAU",
+        "age": 26,
+        "gender": "Female",
+        "nationality": "Canadian",
+        "skills": ["Python", "Data Science", "Machine Learning", "TensorFlow"],
+        "nid": "777777777",
+        "address": "321 Maple Lane, Toronto, Canada",
+        "email": "emily.davis@example.com",
+        "phone": "+1 416-555-1234",
+        "website": "https://www.emilydavis.com",
+        "educationalQualifications": {
+            "degree": "Master of Computer Science",
+            "university": "University of Toronto",
+            "passingyear": 2020,
+            "cgpa": 3.7
+        }
+    },
+    {
+        "name": "Juan Rodriguez",
+        "image": "https://i.ibb.co/Vqf98wZ/i1.jpg",
+        "age": 30,
+        "gender": "Male",
+        "nationality": "Mexican",
+        "skills": ["Java", "Spring Framework", "MySQL", "Software Architecture"],
+        "nid": "555555555",
+        "address": "456 Avenida Principal, Mexico City, Mexico",
+        "email": "juan.rodriguez@example.com",
+        "phone": "+52 55-1234-5678",
+        "website": "https://www.juanrodriguez.com",
+        "educationalQualifications": {
+            "degree": "Bachelor of Science in Computer Engineering",
+            "university": "Tec de Monterrey",
+            "passingyear": 2014,
+            "cgpa": 3.9
+        }
+    },
+    {
+        "name": "Sophie Li",
+        "image": "https://images.pexels.com/photos/1520760/pexels-photo-1520760.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "age": 28,
+        "gender": "Female",
+        "nationality": "Chinese",
+        "skills": ["JavaScript", "React", "Node.js", "Front-end Development"],
+        "nid": "666666666",
+        "address": "789 Pearl Street, Shanghai, China",
+        "email": "sophie.li@example.com",
+        "phone": "+86 21-9876-5432",
+        "website": "https://www.sophieli.com",
+        "educationalQualifications": {
+            "degree": "Master of Science in Computer Science",
+            "university": "Fudan University",
+            "passingyear": 2019,
+            "cgpa": 3.8
+        }
+    },
+    {
+        "name": "Hassan Khan",
+        "image": "https://i.ibb.co/D7NXY1h/i3.jpg",
+        "age": 29,
+        "gender": "Male",
+        "nationality": "Pakistani",
+        "skills": ["C#", ".NET Core", "SQL Server", "Software Development"],
+        "nid": "888888888",
+        "address": "123 Karachi Road, Lahore, Pakistan",
+        "email": "hassan.khan@example.com",
+        "phone": "+92 42-1234-5678",
+        "website": "https://www.hassankhan.com",
+        "educationalQualifications": {
+            "degree": "Bachelor of Computer Science",
+            "university": "University of Lahore",
+            "passingyear": 2015,
+            "cgpa": 3.6
+        }
+    },
+    {
+        "name": "Aisha Patel",
+        "image": "https://images.unsplash.com/photo-1642498565390-7f17c1e96516?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8&w=1000&q=80",
+        "age": 27,
+        "gender": "Female",
+        "nationality": "Indian",
+        "skills": ["Java", "Android Development", "Kotlin", "Firebase"],
+        "nid": "111111111",
+        "address": "789 Tulip Street, Mumbai, India",
+        "email": "aisha.patel@example.com",
+        "phone": "+91 22-5555-6789",
+        "website": "https://www.aishapatel.com",
+        "educationalQualifications": {
+            "degree": "Master of Computer Applications",
+            "university": "Indian Institute of Technology (IIT) Bombay",
+            "passingyear": 2021,
+            "cgpa": 3.9
+        }
+    },
+    {
+        "name": "David Smith",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpIoI76wjvQ2pq6t25TLmRAwTxv118OFKZxykoCiY_fWRtR8QRr1nWWcDtG3tHdgCuWu8&usqp=CAU",
+        "age": 32,
+        "gender": "Male",
+        "nationality": "American",
+        "skills": ["Python", "Data Analysis", "SQL", "Machine Learning"],
+        "nid": "444444444",
+        "address": "123 Oak Street, New York City, USA",
+        "email": "david.smith@example.com",
+        "phone": "+1 212-123-4567",
+        "website": "https://www.davidsmith.com",
+        "educationalQualifications": {
+            "degree": "Ph.D. in Data Science",
+            "university": "Stanford University",
+            "passingyear": 2018,
+            "cgpa": 4.0
+        }
+    }
+]
