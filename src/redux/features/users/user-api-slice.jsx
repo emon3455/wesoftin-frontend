@@ -1,8 +1,9 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
+import { baseURL } from '../../../constant/baseURL';
 
 export const userSlice = createApi({
   reducerPath: 'userSlice',
-  baseQuery: fetchBaseQuery({ baseUrl: 'https://jsonplaceholder.typicode.com' }),
+  baseQuery: fetchBaseQuery({ baseUrl: baseURL }),
   endpoints: (builder) => ({
 
     getAllUsers: builder.query({
