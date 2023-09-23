@@ -7,10 +7,10 @@ const Navbar = () => {
     const [open, setOpen] = useState(true);
 
     return (
-        <nav className='bg-slate-900 text-white p-4'>
+        <nav className='sticky top-0 bg-slate-900 text-white p-4 z-20'>
 
             <div className="container mx-auto flex justify-between">
-                <div className='flex gap-1 items-center md:w-1/3'>
+                <div className='flex gap-1 items-center md:w-1/2'>
 
                     <div onClick={() => setOpen(!open)} className="md:hidden">
 
@@ -24,7 +24,7 @@ const Navbar = () => {
 
                 </div>
 
-                <ul className={`bg-slate-900 w-full md:w-2/3 p-1 text-white md:flex md:justify-around text-xl
+                <ul className={`bg-slate-900 w-full md:w-1/2 p-1 text-white md:flex md:justify-around
  absolute md:static left-0 ${open ? 'top-14' : '-top-96'}`}>
 
                     {
