@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { navData } from "../content/navData";
-import { Link } from "react-router-dom";
+import ActiveLink from "./ActiveLink";
 
 const Navbar = () => {
 
@@ -29,8 +29,8 @@ const Navbar = () => {
 
                     {
                         navData.map((item, indx) => <li 
-                        key={indx} className='scale-95 hover:scale-100 bg-violet-400 px-2 mb-1 duration-500 transition-all ease-in-out font-semibold'>
-                            <Link to={item.path}>{item.title}</Link>
+                        key={indx} className='scale-95 hover:scale-100 mb-1 duration-500 transition-all ease-in-out font-semibold'>
+                            <ActiveLink to={item.path}>{item.title}</ActiveLink>
                         </li>)
                     }
 

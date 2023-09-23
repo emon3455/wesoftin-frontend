@@ -4,7 +4,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const UserComponent = ({user}) => {
+const User = ({user}) => {
     return (
         <div className="shadow-md p-4 rounded bg-white">
             <div className="">
@@ -34,4 +34,4 @@ const UserComponent = ({user}) => {
     );
 };
 
-export default UserComponent;
+export default User;

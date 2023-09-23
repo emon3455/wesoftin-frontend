@@ -1,9 +1,8 @@
 /* eslint-disable no-unused-vars */
-import { Link } from "react-router-dom";
 import SectionTitle from "../../shared/SectionTitle";
 import CSkeleton from "../../components/customComponent/CSkeleton";
 import { useGetAllUsersQuery } from "../../redux/features/users/user-api-slice";
-import UserComponent from "../../components/users/UserComponent";
+import User from "../../components/users/User";
 
 const Users = () => {
 
@@ -21,14 +20,16 @@ const Users = () => {
                 </div>
             }
             {
-                isError && <h2 className='text-center text-red-500 font-bold text-2xl'>{error?.error}</h2>
+                isError && <h2 className='text-center text-red-500 font-bold text-2xl'>
+                    {"Something Went Wrong!! Try again."}
+                </h2>
             }
             <section className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 p-2">
                 {
                     users ?
-                        users.map((user, index) => <UserComponent key={index} user={user} />)
+                        users.map((user, index) => <User key={index} user={user} />)
                         :
-                        !isLoading &&
+                        (!isLoading && !isError) &&
                         <h2 className='text-red-500  font-bold text-2xl text-center md:col-span-2 xl:col-span-3'>
                             No Users Data Found!!!
                         </h2>
