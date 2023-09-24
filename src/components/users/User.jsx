@@ -27,7 +27,7 @@ const User = ({ user }) => {
                     />
                 </div>
                 <div className="">
-                    <h2 className="text-2xl font-semibold">{user?.name}</h2>
+                    <h2 className="text-xl font-semibold">{user?.name}</h2>
                     <p>
                         <span className="font-semibold">EMAIL: </span> {user?.email ? user?.email : "N/A"}
                     </p>

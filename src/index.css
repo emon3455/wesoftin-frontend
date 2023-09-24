@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .btn-primary{
-    @apply px-3 py-1 rounded bg-violet-500 text-white hover:bg-violet-700 transition-all duration-300 ease-in 
+    @apply px-2 py-1 rounded bg-violet-500 text-white hover:bg-violet-700 transition-all duration-300 ease-in 
 }

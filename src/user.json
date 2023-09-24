@@ -14,7 +14,7 @@
         "educationalQualifications": {
             "degree": "Bachelor of Science in Computer Science And Engineering",
             "university": "Green University",
-            "passingyear": 2024,
+            "session": "2020-2024",
             "cgpa": 3.84
         }
     },
@@ -33,7 +33,7 @@
         "educationalQualifications": {
             "degree": "Master of Computer Science",
             "university": "Cairo University",
-            "passingyear": 2018,
+            "session": "2014-2018",
             "cgpa": 3.6
         }
     },
@@ -52,7 +52,7 @@
         "educationalQualifications": {
             "degree": "Bachelor of Arts in Graphic Design",
             "university": "University of Madrid",
-            "passingyear": 2016,
+            "session": "2012-2016",
             "cgpa": 3.9
         }
     },
@@ -71,7 +71,7 @@
         "educationalQualifications": {
             "degree": "Ph.D. in Data Science",
             "university": "Peking University",
-            "passingyear": 2019,
+            "session": "2015-2019",
             "cgpa": 4.0
         }
     },
@@ -90,7 +90,7 @@
         "educationalQualifications": {
             "degree": "Master of Science in Software Engineering",
             "university": "University ABC",
-            "passingyear": 2018,
+            "session": "2014-2018",
             "cgpa": 3.9
         }
     },
@@ -109,7 +109,7 @@
         "educationalQualifications": {
             "degree": "Master of Business Administration",
             "university": "Business School XYZ",
-            "passingyear": 2019,
+            "session": "2015-2019",
             "cgpa": 3.7
         }
     },
@@ -128,7 +128,7 @@
         "educationalQualifications": {
             "degree": "Master of Computer Science",
             "university": "University of Toronto",
-            "passingyear": 2020,
+            "session": "2016-2020",
             "cgpa": 3.7
         }
     },
@@ -147,7 +147,7 @@
         "educationalQualifications": {
             "degree": "Bachelor of Science in Computer Engineering",
             "university": "Tec de Monterrey",
-            "passingyear": 2014,
+            "session": "2010-2014",
             "cgpa": 3.9
         }
     },
@@ -166,7 +166,7 @@
         "educationalQualifications": {
             "degree": "Master of Science in Computer Science",
             "university": "Fudan University",
-            "passingyear": 2019,
+            "session": "2015-2019",
             "cgpa": 3.8
         }
     },
@@ -185,7 +185,7 @@
         "educationalQualifications": {
             "degree": "Bachelor of Computer Science",
             "university": "University of Lahore",
-            "passingyear": 2015,
+            "session": "2011-2015",
             "cgpa": 3.6
         }
     },
@@ -204,7 +204,7 @@
         "educationalQualifications": {
             "degree": "Master of Computer Applications",
             "university": "Indian Institute of Technology (IIT) Bombay",
-            "passingyear": 2021,
+            "session": "2017-2021",
             "cgpa": 3.9
         }
     },
@@ -223,7 +223,7 @@
         "educationalQualifications": {
             "degree": "Ph.D. in Data Science",
             "university": "Stanford University",
-            "passingyear": 2018,
+            "session": "2014-2018",
             "cgpa": 4.0
         }
     }
