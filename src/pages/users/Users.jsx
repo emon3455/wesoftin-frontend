@@ -8,6 +8,7 @@ const Users = () => {
 
     const { isError, isLoading, data: users, error } = useGetAllUsersQuery();
     console.log(users);
+    
 
     return (
         <main className="container mx-auto p-2">
