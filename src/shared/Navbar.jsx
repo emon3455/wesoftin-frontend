@@ -28,11 +28,17 @@ const Navbar = () => {
  absolute md:static left-0 ${open ? 'top-14' : '-top-96'}`}>
 
                     {
-                        navData.map((item, indx) => <li 
-                        key={indx} className='scale-95 hover:scale-100 mb-1 duration-500 transition-all ease-in-out font-semibold'>
+                        navData.map((item, indx) => <li
+                            key={indx} className='scale-95 hover:scale-100 mb-1 duration-500 transition-all ease-in-out font-semibold'>
                             <ActiveLink to={item.path}>{item.title}</ActiveLink>
                         </li>)
                     }
+                    
+                    <li
+                        className='scale-95 hover:scale-100 mb-1 duration-500 transition-all ease-in-out font-semibold'>
+                        <ActiveLink to="/signin">Login</ActiveLink>
+                    </li>
+
 
                 </ul>
             </div>
