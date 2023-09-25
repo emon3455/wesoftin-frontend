@@ -7,7 +7,7 @@
 }
 
 .form-control input{
-    @apply px-1 py-2 w-full border-2 border-gray-500 rounded
+    @apply px-1 py-2 w-full border-2 border-gray-400 rounded
 }
 
 .label{

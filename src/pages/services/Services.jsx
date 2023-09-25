@@ -25,7 +25,7 @@ const Services = () => {
                 </div>
 
                 <div className="bg-white rounded-lg p-4 shadow-xl shadow-pink-500/50 space-y-2 my-auto lg:col-span-2 border-2 border-gray-200">
-                    <h2 className="font-bold text-black">UI/UX Design</h2>
+                    <h2 className="text-xl font-bold text-black">UI/UX Design</h2>
                     <p className="text-justify text-black">
                         User interface (UI) and user experience (UX) design play a crucial role in creating visually appealing and user-friendly websites. I can offer UI/UX design services, collaborating with clients to understand their target audience and design intuitive and visually appealing interfaces.
                     </p>
