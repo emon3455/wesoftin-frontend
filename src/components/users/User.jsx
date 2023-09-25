@@ -15,7 +15,7 @@ const User = ({ user }) => {
         to={`/users/${user._id}`} 
         >
             <div 
-            className="shadow-md p-4 rounded bg-white" 
+            className="shadow-md p-4 rounded bg-white border border-gray-200" 
             onClick={()=>dispatch(setUserData(user))
             }
             >
