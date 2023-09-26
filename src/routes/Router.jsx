@@ -10,11 +10,13 @@ import Services from "../pages/services/Services";
 import Contact from "../pages/contact/Contact";
 import SignIn from "../pages/signin/SignIn";
 import SignUp from "../pages/signup/SignUp";
+import Error from "../pages/error/Error";
 
 const router = createBrowserRouter([
     {
         path: "/",
         element: <Main />,
+        errorElement: <Error />,
         children:[
             {
                 path: "/",
