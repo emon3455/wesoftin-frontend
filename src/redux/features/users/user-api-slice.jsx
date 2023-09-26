@@ -7,9 +7,12 @@ export const userSlice = createApi({
   endpoints: (builder) => ({
 
     getAllUsers: builder.query({
-      query: () => ({
+      query: ({sort}) => ({
         url: "/users",
-        method: "GET"
+        method: "GET",
+        params: {
+          ...(sort && { sort }),
+        },
       }),
     }),
 

@@ -3,12 +3,19 @@ import SectionTitle from "../../shared/SectionTitle";
 import CSkeleton from "../../components/customComponent/CSkeleton";
 import { useGetAllUsersQuery } from "../../redux/features/users/user-api-slice";
 import User from "../../components/users/User";
+import { useState } from "react";
 
 const Users = () => {
 
-    const { isError, isLoading, data: users, error } = useGetAllUsersQuery();
+    const [sort, setSort] = useState(true);
+    const { isError, isLoading, data: users, error } = useGetAllUsersQuery(
+        { sort: sort ? "asc" : "desc" },
+        {
+            refetchOnMountOrArgChange: true,
+        }
+    );
     console.log(users);
-    
+
 
     return (
         <main className="container mx-auto p-2">
@@ -25,6 +32,19 @@ const Users = () => {
                     {"Something Went Wrong!! Try again."}
                 </h2>
             }
+
+            {
+                users 
+                && 
+                <div className="flex gap-x-2 items-center my-5 z-10">
+                    <h2 className='text-xl border-l-4 pl-2 border-violet-500 font-bold'>Sort By Age:</h2>
+                    <select name="sort" id="sort" onChange={() => setSort(!sort)} className='border-2 border-violet-600 w-32 focus:outline-none'>
+                        <option value="asc">Asending</option>
+                        <option value="desc">Desending</option>
+                    </select>
+                </div>
+            }
+
             <section className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 p-2">
                 {
                     users ?
